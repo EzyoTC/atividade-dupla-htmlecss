@@ -1,2 +1,2 @@
 # atividade-dupla-htmlecss
-atividade "em dupla" (provavelmente farei sozinho) de html e css
+atividade em dupla de html e css
