@@ -1,2 +1,2 @@
-# atividade-dupla-htmlecss
-atividade em dupla de html e css
+# atividade-trio-htmlecss
+atividade em trio de html e css
