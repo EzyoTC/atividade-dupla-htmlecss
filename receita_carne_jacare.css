@@ -36,6 +36,15 @@ a{
     text-decoration: none;
     color:black;
     font-family:Arial, Helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 21px;
     margin: 80px auto;
+}
+
+button{
+    display: block;
+    background-color:azure;
+    margin: 300px auto;
+    border-radius: 20px;
+    border-color:black;
+    
 }
