@@ -7,6 +7,135 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    
+
+  <a class="pular-conteudo" href="#receita-do-dia">Pular para o conteúdo</a>
+
+  <header class="cabecalho">
+    <div class="container cabecalho__conteudo">
+      <div class="marca">
+        <p class="marca__nome"><span aria-hidden="true">🥗</span> Sabor Leve</p>
+        <p class="marca__slogan">Comer bem é simples e delicioso</p>
+      </div>
+      <nav aria-label="Menu principal">
+        <ul class="menu">
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#receita-do-dia">Receita do dia</a></li>
+          <li><a href="#mais-receitas">Mais receitas</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio" aria-labelledby="titulo-hero">
+      <div class="container hero__conteudo">
+        <p class="hero__emojis" aria-hidden="true">🥑 🍅 🥕 🍋</p>
+        <h1 id="titulo-hero">Receitas leves para um dia mais saudável</h1>
+        <p class="hero__texto">
+          Pratos práticos, coloridos e cheios de nutrientes, feitos com ingredientes
+          fáceis de encontrar e preparados em poucos minutos.
+        </p>
+        <a class="hero__botao" href="#receita-do-dia">Ver receita do dia</a>
+      </div>
+    </section>
+
+    <section class="secao" id="receita-do-dia" aria-labelledby="titulo-receita-dia">
+      <div class="container">
+        <h2 id="titulo-receita-dia" class="secao__titulo">Receita do dia</h2>
+
+        <article class="card-destaque">
+          <header class="card-destaque__topo">
+            <p class="card-destaque__emoji" aria-hidden="true">🥗</p>
+            <h3>Salada Colorida de Quinoa com Legumes</h3>
+            <ul class="info" aria-label="Informações da receita">
+              <li><span aria-hidden="true">⏱️</span> Preparo: 25 minutos</li>
+              <li><span aria-hidden="true">🍽️</span> Porções: 2</li>
+              <li><span aria-hidden="true">👩‍🍳</span> Dificuldade: fácil</li>
+            </ul>
+          </header>
+
+          <div class="card-destaque__corpo">
+            <section aria-labelledby="titulo-ingredientes">
+              <h4 id="titulo-ingredientes">Ingredientes</h4>
+              <ul class="lista-ingredientes">
+                <li>1 xícara de quinoa cozida</li>
+                <li>1 tomate médio picado</li>
+                <li>1 cenoura pequena ralada</li>
+                <li>1/2 pepino em cubos</li>
+                <li>1/2 abacate maduro em cubos</li>
+                <li>2 colheres (sopa) de salsinha picada</li>
+                <li>Suco de 1 limão</li>
+                <li>1 colher (sopa) de azeite extravirgem</li>
+                <li>Sal e pimenta-do-reino a gosto</li>
+              </ul>
+            </section>
+
+            <section aria-labelledby="titulo-preparo">
+              <h4 id="titulo-preparo">Modo de preparo</h4>
+              <ol class="lista-passos">
+                <li>Cozinhe a quinoa em água por cerca de 15 minutos e deixe esfriar.</li>
+                <li>Pique o tomate, o pepino e o abacate e rale a cenoura.</li>
+                <li>Em uma tigela grande, misture a quinoa com os legumes e a salsinha.</li>
+                <li>Tempere com o suco de limão, o azeite, o sal e a pimenta.</li>
+                <li>Misture com cuidado e sirva em seguida ou gelada.</li>
+              </ol>
+            </section>
+          </div>
+
+          <aside class="dica" aria-label="Dica nutricional">
+            <p><strong><span aria-hidden="true">💡</span> Dica nutricional:</strong>
+            a quinoa é fonte de proteínas e fibras, e o abacate traz gorduras boas
+            que ajudam na saciedade.</p>
+          </aside>
+        </article>
+      </div>
+    </section>
+
+    <section class="secao secao--alt" id="mais-receitas" aria-labelledby="titulo-mais">
+      <div class="container">
+        <h2 id="titulo-mais" class="secao__titulo">Mais receitas</h2>
+
+        <div class="grade">
+          <article class="card">
+            <p class="card__emoji" aria-hidden="true">🥞</p>
+            <h3>Panqueca de Banana e Aveia</h3>
+            <p class="card__tempo"><span aria-hidden="true">⏱️</span> 15 minutos</p>
+            <p>Café da manhã sem açúcar refinado, com apenas banana, ovo e aveia.</p>
+          </article>
+
+          <article class="card">
+            <p class="card__emoji" aria-hidden="true">🍲</p>
+            <h3>Sopa Cremosa de Abóbora</h3>
+            <p class="card__tempo"><span aria-hidden="true">⏱️</span> 30 minutos</p>
+            <p>Reconfortante e leve, com gengibre para dar um toque especial.</p>
+          </article>
+
+          <article class="card">
+            <p class="card__emoji" aria-hidden="true">🥤</p>
+            <h3>Suco Verde Refrescante</h3>
+            <p class="card__tempo"><span aria-hidden="true">⏱️</span> 5 minutos</p>
+            <p>Couve, limão, maçã e hortelã para começar o dia com energia.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+        <nav class="navegacao-paginas" aria-label="Navegação entre páginas">
+      <a class="botao-proximo" id="botao-proximo" href="pagina2.html">
+        Próxima página <span aria-hidden="true">→</span>
+      </a>
+    </nav>
+  </main>
+
+  <footer class="rodape">
+    <div class="container">
+      <p>
+        <span aria-hidden="true">🌿</span> O conteúdo deste site é apenas informativo
+        e não substitui a orientação de um nutricionista ou outro profissional de saúde.
+      </p>
+      <p class="rodape__copy">© Sabor Leve</p>
+    </div>
+  </footer>
+
 </body>
 </html>
