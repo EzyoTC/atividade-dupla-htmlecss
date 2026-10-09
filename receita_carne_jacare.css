@@ -1,0 +1,42 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-image: url("assets/Image_prato_jacare.jpg");
+}
+
+h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color:darkgreen;
+    text-align: justify
+}
+
+p.descricao{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color:black;
+    text-align:justify
+}
+h2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    color:darkgreen;
+    text-align: justify
+}
+p.modo_de_preparo{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color:black;
+    text-align:justify
+}
+
+.botao
+{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    color:white;
+    background-color:darkgreen;
+    border-radius: 12px;
+    display: block;
+    margin: 80px auto
+}
